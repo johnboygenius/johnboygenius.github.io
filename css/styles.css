@@ -8,12 +8,9 @@
 
 body {
 	font-family: Streamster;
-	background: linear-gradient(#000000,#0D0221);
-	background-repeat: no-repeat;
-	background-color: #0D0221;
+	background-color: #0d0221;
 	margin: 0;
 	padding: 0;
-	/* centering */
 	text-align: center;
 	position: absolute;
 	top: 50%;
@@ -32,6 +29,8 @@ a {
 #name {
 	font-size: 20vmin;
 	transform: rotate(-5deg);
+	color: #2de2e6;
+	text-shadow: 0 0 10px #2de2e6;
 }
 
 span {
@@ -46,19 +45,16 @@ span {
 
 .button img {
 	width: 50%;
+	border-radius: 50%;
+	box-shadow: 0 0 20px #f706cf;
 }
 
-.button:hover {
-	opacity: 0.75;
+.button:hover, .button:active {
+	text-shadow: 0 0 10px #2de2e6;
 }
 
 .label {
 	font-size: 8vw;
+	color: #2de2e6;
 	transform: rotate(-5deg) translateY(-100%);
-}
-
-#name, .label {
-	background: -webkit-linear-gradient(#ff6c11, #f706cf);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
