@@ -27,7 +27,7 @@ a {
 }
 
 #name {
-	font-size: calc(60px + 3vmin);
+	font-size: 20vmin;
 	padding-top: 10vmin;
 	padding-bottom: 5vmin;
 }
@@ -48,6 +48,6 @@ a {
 }
 
 .label {
-	font-size: calc(20px + 3vmin);
+	font-size: 8vmin;
 	transform: translateY(-50%);
 }
