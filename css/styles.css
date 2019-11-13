@@ -1,0 +1,53 @@
+@font-face {
+	font-family: Streamster;
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/Streamster.woff);
+}
+
+body {
+	font-family: Streamster;
+	background-color: #0D0221;
+	color: #ff3864;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #ff3864;
+}
+
+#name {
+	font-size: 9rem;
+	padding-top: 200px;
+	padding-bottom: 50px;
+}
+
+.button {
+	width: 33.333%;
+	height: 33.333%;
+	float: left;
+	display: inline;
+}
+
+.button img {
+	width: 50%;
+}
+
+.button img:hover {
+	opacity: 0.75;
+}
+
+.label {
+	font-size: 4rem;
+	transform: translateY(-50%);
+}
