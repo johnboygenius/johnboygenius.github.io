@@ -3,7 +3,7 @@
 	font-stretch: normal;
 	font-style: normal;
 	font-weight: normal;
-	src: url(fonts/Streamster.woff);
+	src: url(../fonts/Streamster.woff) format("woff");
 }
 
 body {
