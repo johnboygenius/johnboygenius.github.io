@@ -8,8 +8,9 @@
 
 body {
 	font-family: Streamster;
+	background: linear-gradient(#000000,#0D0221);
+	background-repeat: no-repeat;
 	background-color: #0D0221;
-	color: #ff3864;
 	margin: 0;
 	padding: 0;
 	justify-content: center;
@@ -18,7 +19,6 @@ body {
 
 a {
 	text-decoration: none;
-	color: #ff3864;
 }
 
 #name {
@@ -39,11 +39,17 @@ a {
 	width: 50%;
 }
 
-.button img:hover {
+.button:hover {
 	opacity: 0.75;
 }
 
 .label {
 	font-size: 8vmin;
 	transform: rotate(-5deg) translateY(-100%);
+}
+
+#name, .label {
+	background: -webkit-linear-gradient(#ff6c11, #f706cf);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
