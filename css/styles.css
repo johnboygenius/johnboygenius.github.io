@@ -27,9 +27,9 @@ a {
 }
 
 #name {
-	font-size: 9rem;
-	padding-top: 200px;
-	padding-bottom: 50px;
+	font-size: calc(100px + 0.75vmin);
+	padding-top: 10vmin;
+	padding-bottom: 5vmin;
 }
 
 .button {
@@ -48,6 +48,6 @@ a {
 }
 
 .label {
-	font-size: 4rem;
+	font-size: calc(50px + 0.50vmin);
 	transform: translateY(-50%);
 }
