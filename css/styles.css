@@ -16,11 +16,6 @@ body {
 	text-align: center;
 }
 
-h1 {
-	margin: 0;
-	padding: 0;
-}
-
 a {
 	text-decoration: none;
 	color: #ff3864;
@@ -30,6 +25,7 @@ a {
 	font-size: 20vmin;
 	padding-top: 10vmin;
 	padding-bottom: 5vmin;
+	transform: rotate(-5deg);
 }
 
 .button {
@@ -49,5 +45,5 @@ a {
 
 .label {
 	font-size: 8vmin;
-	transform: translateY(-50%);
+	transform: rotate(-5deg) translateY(-100%);
 }
