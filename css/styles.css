@@ -53,6 +53,11 @@ span {
 	text-shadow: 0 0 10px #2de2e6;
 }
 
+.button:hover img, .button:active img {
+	border-radius: 50%;
+	box-shadow: 0 0 40px #f706cf;
+}
+
 .label {
 	font-size: 8vw;
 	color: #2de2e6;
