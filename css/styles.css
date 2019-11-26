@@ -6,21 +6,23 @@
 	src: url(../fonts/Streamster.woff) format("woff");
 }
 
+html {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 body {
 	font-family: Streamster;
 	background-color: #0a0219;
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	position: absolute;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
 }
 
-a {
-	text-decoration: none;
-}
+/** Name/Title formatting **/
 
 #container {
 	margin-bottom: 5vmin;
@@ -31,6 +33,12 @@ a {
 	transform: rotate(-5deg);
 	color: #2de2e6;
 	text-shadow: 0 0 10px #2de2e6;
+}
+
+/** Links formatting **/
+
+a {
+	text-decoration: none;
 }
 
 span {
@@ -49,6 +57,8 @@ span {
 	box-shadow: 0 0 20px #f706cf;
 }
 
+/** Glow effects **/
+
 .button:hover, .button:active {
 	text-shadow: 0 0 10px #2de2e6;
 }
@@ -58,8 +68,22 @@ span {
 	box-shadow: 0 0 40px #f706cf;
 }
 
+/** Links text **/
+
 .label {
 	font-size: 8vw;
 	color: #2de2e6;
 	transform: rotate(-5deg) translateY(-100%);
+}
+
+/** Highlight invisible **/
+
+::selection {
+	color: inherit;
+	background: inherit;
+}
+
+::-moz-selection {
+	color: inherit;
+	background: inherit;
 }
